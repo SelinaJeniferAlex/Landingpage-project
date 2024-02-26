@@ -1,5 +1,5 @@
 <template>
-    <q-card class="card q-pa-md row justify-center" v-for="C in cardData" :style="{backgroundColor:C.clr}">
+    <q-card class="card q-pa-sm row justify-center" v-for="C in cardData" :style="{backgroundColor:C.clr}">
         <q-card-section class="text-center">
             <q-img :src="C.img" width="104px" height="72px"></q-img>
         </q-card-section>
@@ -54,7 +54,13 @@ import { defineComponent } from 'vue'
 <style>
 .card{
   width: 400px;
-  height:270px
+  height:270px;
+}
+@media (max-width:768px){
+  .card{
+    width: 300px;
+    height:270px;
+    }
 }
 </style>   
    

@@ -1,5 +1,5 @@
 <template>
-    <div class="q-pa-md">
+    <div class="q-pa-md tab-size">
       <div class="q-gutter-y-md">
         <q-option-group
           class="text-h5 q-px-xl text-center q-pb-md"
@@ -46,4 +46,10 @@
     }
   }
   </script>
-  
+ <style>
+ @media (min-width:768px){
+  .tab-size{
+    width: 80%;
+  }
+ }
+</style>

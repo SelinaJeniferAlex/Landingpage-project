@@ -20,8 +20,8 @@
             <div class="text-center text-h6 q-pa-sm">
               <p>Request a callback to <br> Start your journey with Edex Tech!</p>
             </div>
-            <div class="flex flex-center">
-              <div class="q-pa-sm">
+            <div class="">
+              <div class="q-px-xl q-py-md">
                 <q-form
                   @submit="onSubmit"
                   class="q-gutter-sm"
@@ -69,8 +69,8 @@
       </div>
     </div>
   </div>
-  <div>
-    <div class="q-ma-md">
+  <div class="container-fluid">
+    <div class="container q-ma-md">
       <div class="row q-pa-xl" style="text-align: center;">
         <div class="text-h4 text-dark col">
           Full Stack Web Development Course Overview
@@ -145,7 +145,7 @@
       <div class="row q-ma-md q-pa-md text-h4">
         <div class="col">Key highlights of the Edex Tech's Full Stack Developer Program</div>
       </div>
-      <div class="row text-h6 text-blue-grey-13">      
+      <div class="row text-h6 text-blue-grey-13 q-pa-md">      
         <div class="col">Edex Tech's full-stack development program helps you learn exactly everything that you need to solidify your tech career</div>
       </div>
     </div>
@@ -171,7 +171,7 @@
       <div class="row q-ma-sm q-pa-md text-h4">
         <div class="col">Career services</div>
       </div>
-      <div class="row text-h6 text-blue-grey-13 q-pa-sm">      
+      <div class="row text-h6 text-blue-grey-13 q-pa-md">      
         <div class="col">Along with upskilling and preparing you to be a solid engineer, we will help you with your job search and interview preparation as well!</div>
       </div>
     </div>
@@ -225,12 +225,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col text-center text-h5 q-pa-sm">
+      <div class="col text-center text-h5 q-pa-md">
         With scholarship & EMI options, your payment can be as low as Rs. 8,628 per month - that's like your monthly grocery bill!
       </div>
     </div>
     <div class="row">
-      <div class="col text-center text-h6 text-blue-grey-14 q-pa-sm">
+      <div class="col text-center text-h6 text-blue-grey-14 q-pa-md">
         Total fee: Rs 3.69L inclusive of GST at super affordable EMI options. Try the course for the first 2 weeks - full money-back guarantee if you choose to withdraw.
       </div>
     </div>
@@ -241,76 +241,119 @@
     </div>
   </div>
   <!-- FAQs -->
-  <div>
+  <div class="q-pa-xl">
     <div class="row">
-      <div class="col text-center text-h4">
+      <div class="col text-center text-h4 q-pa-md">
         Full Stack Web Development Course FAQs
       </div>
     </div>
-    <div class="row justify-center">
-      <div class="q-pa-lg" style="max-width: 1000px;">
-        <div class="shadow-8 q-pa-md q-my-lg">
-          <div class="text-h5">What is Edex Tech's full-stack development program?</div>
-          <div>
-            <div class="text-h6  q-py-md">Edex Tech offers a structured, flexible and guided learning program for software engineers to accelerate their career. This program is open for all software engineers irrespective of the # of years of work experience or their current place of work. Our features are:</div>
-            <div class="text-h6">
-              <ul>
-                <li>Structured curriculum that covers CS Fundamentals and System Design via a project based approach. This curriculum has been industry-vetted and reverse-engineered by analysing what it takes to be a great engineer</li>
-                <li>Live classes that are held twice a week, with the timings determined by students in the batch</li>
-                <li>Tutors who have built scalable systems in the past and understand the real-life importance of DSA and System Design, not just interview-relevant material</li>
-                <li>Quick doubt resolution from our 100+ Teaching Assistants</li>
-                <li>Aspirational peer group and access to EdexTechChat, our internal communication tool wherein you can collaborate with others on projects, get authentic interview experiences and share job-referrals</li>
-                <li>Flexible curriculum that help you continue learning despite your hectic work schedule. We provide recorded lectures to view later and also allow you to move between batches at NO cost</li>
-                <li>Career support - we provide job opportunities via our 600+ employer partners, mock interview services and career planning services</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="shadow-8 q-pa-md q-my-lg">
-          <div class="text-h5">Who is eligible for Edex Tech's Full Stack course?</div>
-          <div class="text-h6  q-py-md">Software engineers with any number of years of experience can choose to join Edex Tech's Full Stack program. Applicants currently in college (1st, 2nd, 3rd or final year of college) could consider to join Scaler Edge, our college student focused product. Please visit www.edextech.com/edge for more detail</div>
-        </div>
-        <div class="shadow-8 q-pa-md q-my-lg">
-          <div class="text-h5">When are the live classes held?</div>
-          <div class="text-h6  q-py-md">Live classes are normally held 2 times a week, with the exact class days and timings being determined by the batch. However, given all learners would be software engineers that are currently working, the classes would be held in the late evening or night on weekdays and any suitable time over the weekends.</div>
-        </div>
-        <div class="shadow-8 q-pa-md q-my-lg">
-          <div class="text-h5">What happens if I miss a lecture in this online full stack developer course?</div>
-          <div class="text-h6 q-py-md">All lectures are recorded and you will have access to the recordings after the lecture is completed.</div>
-        </div>
-        <div class="shadow-8 q-pa-md q-my-lg">
-          <div class="text-h5">Can I attend this full stack developer training part-time?</div>
-          <div class="text-h6 q-py-md">The program has a fixed schedule, during which you would attend live-lectures with a dedicated instructor, Teaching Assistant, and personal mentor. 15 hour weekly commitment is required for the duration of the program in order to achieve positive results.</div>
-        </div>
-        <div class="shadow-8 q-pa-md q-my-lg">
-          <div class="text-h5">Are full stack developers in demand in 2024?</div>
-          <div class="text-h6 q-py-md">A full-stack developer is one of the high-demand jobs in the industry. Companies pay them handsomely since they contribute the most to software projects. Thus, whether you are a fresher or an experienced developer, you will always be in demand in the software industry, with great opportunities waiting for you.</div>
-        </div>
-        <div class="shadow-8 q-pa-md q-my-lg">
-          <div class="text-h5">Will I get a full-stack developer certification?</div>
-          <div class="text-h6 q-py-md">After the end of the full-stack developer course, you will receive a course completion certificate</div>
-        </div>
+    <div class="row justify-center q-my-md text-h6">
+      <div class="col" style="max-width: 120vh;">
+        <q-list bordered class="rounded-borders">
+          <q-expansion-item>
+            <template v-slot:header>
+              <q-item-section>
+                What is Edex Tech's full-stack development program?
+              </q-item-section>
+            </template>
+
+            <q-card>
+              <q-card-section>
+                <div class>
+                  <ul>
+                    <li>Structured curriculum that covers CS Fundamentals and System Design via a project based approach. This curriculum has been industry-vetted and reverse-engineered by analysing what it takes to be a great engineer</li>
+                    <li>Live classes that are held twice a week, with the timings determined by students in the batch</li>
+                    <li>Tutors who have built scalable systems in the past and understand the real-life importance of DSA and System Design, not just interview-relevant material</li>
+                    <li>Quick doubt resolution from our 100+ Teaching Assistants</li>
+                    <li>Aspirational peer group and access to EdexTechChat, our internal communication tool wherein you can collaborate with others on projects, get authentic interview experiences and share job-referrals</li>
+                    <li>Flexible curriculum that help you continue learning despite your hectic work schedule. We provide recorded lectures to view later and also allow you to move between batches at NO cost</li>
+                    <li>Career support - we provide job opportunities via our 600+ employer partners, mock interview services and career planning services</li>
+                  </ul>
+                </div>
+              </q-card-section>
+            </q-card>
+          </q-expansion-item>
+
+          <q-separator />
+
+          <q-expansion-item>
+            <template v-slot:header>
+              <q-item-section>
+                Who is eligible for Edex Tech's Full Stack course?
+              </q-item-section>
+            </template>
+
+            <q-card>
+              <q-card-section>
+                <div>
+                  Software engineers with any number of years of experience can choose to join Edex Tech's Full Stack program. Applicants currently in college (1st, 2nd, 3rd or final year of college) could consider to join Scaler Edge, our college student focused product. Please visit www.edextech.com/edge for more detail
+                </div>
+              </q-card-section>
+            </q-card>
+          </q-expansion-item>
+          <q-separator />
+
+          <q-expansion-item>
+            <template v-slot:header>
+              <q-item-section>
+                When are the live classes held?
+              </q-item-section>
+            </template>
+
+            <q-card>
+              <q-card-section>
+                <div>
+                  Live classes are normally held 2 times a week, with the exact class days and timings being determined by the batch. However, given all learners would be software engineers that are currently working, the classes would be held in the late evening or night on weekdays and any suitable time over the weekends.            </div>
+              </q-card-section>
+            </q-card>
+          </q-expansion-item>
+          <q-separator />
+
+          <q-expansion-item>
+            <template v-slot:header>
+              <q-item-section>
+                What happens if I miss a lecture in this online full stack developer course?          </q-item-section>
+            </template>
+
+            <q-card>
+              <q-card-section>
+                <div>
+                  All lectures are recorded and you will have access to the recordings after the lecture is completed.            </div>
+              </q-card-section>
+            </q-card>
+          </q-expansion-item>
+          <q-separator />
+
+          <q-expansion-item>
+            <template v-slot:header>
+              <q-item-section>
+                Can I attend this full stack developer training part-time?          </q-item-section>
+            </template>
+
+            <q-card>
+              <q-card-section>
+                <div>
+                  The program has a fixed schedule, during which you would attend live-lectures with a dedicated instructor, Teaching Assistant, and personal mentor. 15 hour weekly commitment is required for the duration of the program in order to achieve positive results.            </div>
+              </q-card-section>
+            </q-card>
+          </q-expansion-item>
+        </q-list>
       </div>
     </div>
   </div>
-  <div class="bg-cyan-1 q-pa-md">
-    <div class="text-h4 text-red text-weight-bolder text-center">Edex Tech</div>
-    <div class="text-center q-pa-sm">
-     
-      <div class="text-h6">Head Office</div>
-      <div class="q-ma-sm">
-        <q-icon name="location_on" class="q-mr-sm" />AVM Complex, Annai Theresa Street, Kalavasal, Madurai
+  <div class="bg-cyan-1 q-pa-md q-mt-md">
+    <div class="text-h5 text-red text-weight-bolder text-center">Edex Tech</div>
+      <div class="text-center text-h6 q-pa-sm flex flex-center">
+             <div class="q-ma-sm">
+          <q-icon name="location_on" class="q-mr-sm" />AVM Complex, Annai Theresa Street, Kalavasal, Madurai
+        </div>
+        <div class="q-ma-sm">
+          <q-icon name="email" class="q-mr-sm" /> hello@edex.com
+        </div>
+        <div class="q-ma-sm">
+          <q-icon name="phone" class="q-mr-sm" /> +919085299999
+        </div>
       </div>
-      <div class="text-h6">Mail</div>
-      <div class="q-ma-sm">
-        <q-icon name="email" class="q-mr-sm" /> hello@edex.com
-      </div>
-      <div class="text-h6">Phone Number</div>
-      <div class="q-ma-sm">
-        <q-icon name="phone" class="q-mr-sm" /> +919085299999
-      </div>
-
-   </div>
   </div>
 </q-page>
 </template>
@@ -322,11 +365,12 @@ import TabPanel from 'components/TabPanel.vue'
 import CareerCard from 'src/components/CareerCard.vue'
 import CarouselCard from 'src/components/CarouselCard.vue'
 import TabAccordian from 'src/components/TabAccordian.vue'
+import demo from 'src/components/demo.vue'
 
 export default defineComponent({
   name: 'IndexPage',
   components:{
-    Card,TabPanel,CareerCard,CarouselCard,TabAccordian
+    Card,TabPanel,CareerCard,CarouselCard,TabAccordian,demo
   },
   setup(){
     return{
